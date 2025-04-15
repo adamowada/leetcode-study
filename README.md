@@ -75,6 +75,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Longest Common Prefix - Easy
   - [problem](array-string/longest-common-prefix/problem.md)
   - [solution](array-string/longest-common-prefix/solution.md)
+- Reverse Words in a String
+  - [problem](array-string/longest-common-prefix/problem.md)
+  - [solution](array-string/longest-common-prefix/solution.md)
 
 ### Two Pointers
 
