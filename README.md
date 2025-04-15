@@ -51,6 +51,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Insert Delete GetRandom O(1) - Medium
   - [problem](array-string/insert-delete-getrandom-o1/problem.md)
   - [solution](array-string/insert-delete-getrandom-o1/solution.md)
+- Product of Array Except Self - Medium
+  - [problem](array-string/product-of-array-except-self/problem.md)
+  - [solution](array-string/product-of-array-except-self/solution.md)
 
 ### Two Pointers
 
