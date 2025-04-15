@@ -23,6 +23,12 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Remove Duplicates from Sorted Array - Easy
   - [problem](array-string/remove-duplicates-from-sorted-array/problem.md)
   - [solution](array-string/remove-duplicates-from-sorted-array/solution.md)
+- Remove Duplicates from Sorted Array II - Medium
+  - [problem](array-string/remove-duplicates-from-sorted-array-ii/problem.md)
+  - [solution](array-string/remove-duplicates-from-sorted-array-ii/solution.md)
+- Majority Element - Easy
+  - [problem](array-string/majority-element/problem.md)
+  - [solution](array-string/majority-element/solution.md)
 
 ### Two Pointers
 
