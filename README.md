@@ -63,6 +63,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Trapping Rain Water - Hard
   - [problem](array-string/trapping-rain-water/problem.md)
   - [solution](array-string/trapping-rain-water/solution.md)
+- Trapping Rain Water - Hard
+  - [problem](array-string/trapping-rain-water/problem.md)
+  - [solution](array-string/trapping-rain-water/solution.md)
 
 ### Two Pointers
 
