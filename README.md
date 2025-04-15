@@ -38,6 +38,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Best Time to Buy and Sell Stock II - Medium
   - [problem](array-string/best-time-to-buy-and-sell-stock-ii/problem.md)
   - [solution](array-string/best-time-to-buy-and-sell-stock-ii/solution.md)
+- Jump Game - Medium
+  - [problem](array-string/jump-game/problem.md)
+  - [solution](array-string/jump-game/solution.md)
 
 ### Two Pointers
 
