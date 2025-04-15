@@ -89,7 +89,11 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### Two Pointers
 
-- 
+- Valid Palindrome - Easy
+- Is Subsequence - Easy
+- Two Sum II - Input Array Is Sorted - Medium
+- Container With Most Water - Medium
+- 3Sum - Medium
 
 ### Sliding Window
 
