@@ -17,6 +17,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Merge Sorted Array - Easy
   - [problem](array-string/merge-sorted-array/problem.md)
   - [solution](array-string/merge-sorted-array/solution.md)
+- Remove Element - Easy
+  - [problem](array-string/remove-element/problem.md)
+  - [solution](array-string/remove-element/solution.md)
 
 ### Two Pointers
 
