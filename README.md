@@ -41,7 +41,6 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Jump Game - Medium
   - [problem](array-string/jump-game/problem.md)
   - [solution](array-string/jump-game/solution.md)
-  - [solution](array-string/best-time-to-buy-and-sell-stock-ii/solution.md)
 - Jump Game II - Medium
   - [problem](array-string/jump-game-ii/problem.md)
   - [solution](array-string/jump-game-ii/solution.md)
