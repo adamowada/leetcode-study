@@ -12,7 +12,7 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ## Table of Contents
 
-### Array / String
+### [Array / String](array-string/study-guide.md)
 
 - Merge Sorted Array - Easy
   - [problem](array-string/merge-sorted-array/problem.md)
