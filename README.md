@@ -81,7 +81,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Zigzag Conversion - Medium
   - [problem](array-string/zigzag-conversion/problem.md)
   - [solution](array-string/zigzag-conversion/solution.md)
-
+- Find the Index of the First Occurrence in a String
+  - [problem](array-string/find-the-index-of-the-first-occurrence-in-a-string/problem.md)
+  - [solution](array-string/find-the-index-of-the-first-occurrence-in-a-string/solution.md)
 
 ### Two Pointers
 
