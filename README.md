@@ -90,11 +90,20 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Two Pointers
 
 - Valid Palindrome - Easy
-  - [problem]()
+  - [problem](two-oointers//problem.md)
+  - [solution](two-oointers//solution.md)
 - Is Subsequence - Easy
+  - [problem](two-oointers//problem.md)
+  - [solution](two-oointers//solution.md)
 - Two Sum II - Input Array Is Sorted - Medium
+  - [problem](two-oointers//problem.md)
+  - [solution](two-oointers//solution.md)
 - Container With Most Water - Medium
+  - [problem](two-oointers//problem.md)
+  - [solution](two-oointers//solution.md)
 - 3Sum - Medium
+  - [problem](two-oointers//problem.md)
+  - [solution](two-oointers//solution.md)
 
 ### Sliding Window
 
