@@ -20,6 +20,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Remove Element - Easy
   - [problem](array-string/remove-element/problem.md)
   - [solution](array-string/remove-element/solution.md)
+- Remove Duplicates from Sorted Array - Easy
+  - [problem](array-string/remove-duplicates-from-sorted-array/problem.md)
+  - [solution](array-string/remove-duplicates-from-sorted-array/solution.md)
 
 ### Two Pointers
 
