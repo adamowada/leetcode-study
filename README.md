@@ -72,6 +72,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Length of Last Word - Easy
   - [problem](array-string/length-of-last-word/problem.md)
   - [solution](array-string/length-of-last-word/solution.md)
+- Longest Common Prefix - Easy
+  - [problem](array-string/longest-common-prefix/problem.md)
+  - [solution](array-string/longest-common-prefix/solution.md)
 
 ### Two Pointers
 
