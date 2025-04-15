@@ -78,9 +78,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Reverse Words in a String - Medium
   - [problem](array-string/reverse-words-in-a-string/problem.md)
   - [solution](array-string/reverse-words-in-a-string/solution.md)
-- Reverse Words in a String - Medium
-  - [problem](array-string/reverse-words-in-a-string/problem.md)
-  - [solution](array-string/reverse-words-in-a-string/solution.md)
+- Zigzag Conversion - Medium
+  - [problem](array-string/zigzag-conversion/problem.md)
+  - [solution](array-string/zigzag-conversion/solution.md)
 
 ### Two Pointers
 
