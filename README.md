@@ -29,6 +29,12 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Majority Element - Easy
   - [problem](array-string/majority-element/problem.md)
   - [solution](array-string/majority-element/solution.md)
+- Rotate Array - Medium
+  - [problem](array-string/rotate-array/problem.md)
+  - [solution](array-string/rotate-array/solution.md)
+- Best Time to Buy and Sell Stock - Easy
+  - [problem](array-string/best-time-to-buy-and-sell-stock/problem.md)
+  - [solution](array-string/best-time-to-buy-and-sell-stock/solution.md)
 
 ### Two Pointers
 
