@@ -69,6 +69,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Integer to Roman - Medium
   - [problem](array-string/integer-to-roman/problem.md)
   - [solution](array-string/integer-to-roman/solution.md)
+- Length of Last Word - Easy
+  - [problem](array-string/length-of-last-word/problem.md)
+  - [solution](array-string/length-of-last-word/solution.md)
 
 ### Two Pointers
 
