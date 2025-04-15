@@ -45,6 +45,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Jump Game II - Medium
   - [problem](array-string/jump-game-ii/problem.md)
   - [solution](array-string/jump-game-ii/solution.md)
+- H-Index - Medium
+  - [problem](array-string/h-index/problem.md)
+  - [solution](array-string/h-index/solution.md)
 
 ### Two Pointers
 
