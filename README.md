@@ -66,6 +66,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Roman to Integer - Easy
   - [problem](array-string/roman-to-integer/problem.md)
   - [solution](array-string/roman-to-integer/solution.md)
+- Integer to Roman - Medium
+  - [problem](array-string/integer-to-roman/problem.md)
+  - [solution](array-string/integer-to-roman/solution.md)
 
 ### Two Pointers
 
