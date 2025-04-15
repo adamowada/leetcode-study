@@ -57,6 +57,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - Gas Station - Medium
   - [problem](array-string/gas-station/problem.md)
   - [solution](array-string/gas-station/solution.md)
+- Candy - Hard
+  - [problem](array-string/candy/problem.md)
+  - [solution](array-string/candy/solution.md)
 
 ### Two Pointers
 
