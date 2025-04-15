@@ -48,6 +48,9 @@ More alarming is that the approaches and techniques from these optimal solutions
 - H-Index - Medium
   - [problem](array-string/h-index/problem.md)
   - [solution](array-string/h-index/solution.md)
+- Insert Delete GetRandom O(1) - Medium
+  - [problem](array-string/insert-delete-getrandom-o1/problem.md)
+  - [solution](array-string/insert-delete-getrandom-o1/solution.md)
 
 ### Two Pointers
 
