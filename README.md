@@ -184,8 +184,8 @@ More alarming is that the approaches and techniques from these optimal solutions
     <tr>
       <td><img width="882" height="0">&nbsp;</td>
       <td><img width="1" height="0">&nbsp;</td>
-      <td><a href="two-pointers/valid-palindrome/problem.md"><img width="1" height="0">&nbsp;</a></td>
-      <td><a href="two-pointers/valid-palindrome/solution.md"><img width="1" height="0">&nbsp;</a></td>
+      <td><img width="1" height="0">&nbsp;</td>
+      <td><img width="1" height="0">&nbsp;</td>
     </tr>
     <tr>
       <td>Valid Palindrome</td>
