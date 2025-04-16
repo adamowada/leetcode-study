@@ -87,7 +87,7 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](array-string/text-justification/problem.md)
   - [solution](array-string/text-justification/solution.md)
 
-### Two Pointers
+### [Two Pointers](two-pointers/study-guide.md)
 
 - Valid Palindrome - Easy
   - [problem](two-pointers/valid-palindrome/problem.md)
