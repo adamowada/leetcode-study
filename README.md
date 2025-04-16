@@ -150,11 +150,23 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](hashmap//problem.md)
   - [solution](hashmap//solution.md)
 - Valid Anagram
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Group Anagrams
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Two Sum
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Happy Number
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Contains Duplicate II
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Longest Consecutive Sequence
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 
 ### Intervals
 
