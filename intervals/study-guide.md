@@ -22,6 +22,7 @@ Intervals problems are characterized by input data that represents ranges or seg
 Every problem above—for example, the “minimum-number-of-arrows-to-burst-balloons” where each balloon is modeled as an interval, or “insert-interval” where you combine a new time slot with existing ones—exhibits one or more of these characteristics.
 
 ──────────────────────────────
+
 2. Most Common to Least Common Techniques and Approaches to Solving Intervals Problems
 
 When tackling interval problems, certain algorithmic techniques stand out. Below, the approaches are ordered from the most frequently used foundational steps to more problem-specific techniques:
@@ -57,6 +58,7 @@ When tackling interval problems, certain algorithmic techniques stand out. Below
   – In summary-ranges, after determining the start and end of a contiguous sequence, a conditional check determines whether to format the result as a single number (if start equals end) or as a range (if they differ).
 
 ──────────────────────────────
+
 Practical References and How They Fit Together
 
 • The merge-intervals problem demonstrates the power of sorting and a single pass combined with in-place merging.
