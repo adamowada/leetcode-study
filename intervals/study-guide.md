@@ -1,4 +1,4 @@
-<div class="EZ7Sr -K9ze" style="--content-height: 250px;"><div><div class="mx-1"><div class="jjv-K"><p>Below is a comprehensive study guide for intervals problems that walks you through how to identify them and then explains the spectrum of techniques—from the most foundational to the more specialized methods—using concrete examples from our collection (insert-interval, merge-intervals, minimum-number-of-arrows-to-burst-balloons, and summary-ranges).</p>
+<div><div class="mx-1"><div class="jjv-K"><p>Below is a comprehensive study guide for intervals problems that walks you through how to identify them and then explains the spectrum of techniques—from the most foundational to the more specialized methods—using concrete examples from our collection (insert-interval, merge-intervals, minimum-number-of-arrows-to-burst-balloons, and summary-ranges).</p>
 <p>──────────────────────────────</p>
 <ol>
 <li>Identifying Intervals Problems</li>
@@ -78,4 +78,4 @@ Summary</p>
 <li>Update boundaries in place or follow a multi-phase processing strategy if the problem involves different cases (e.g., non-overlapping, overlapping, and subsequent intervals).</li>
 </ol>
 <p>By practicing these techniques and studying the provided examples, you’ll develop a keen intuition for identifying and solving a wide range of intervals problems efficiently.</p>
-<p>Happy coding and good luck with your practice!</p></div></div></div></div>
+<p>Happy coding and good luck with your practice!</p></div></div></div>
