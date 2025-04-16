@@ -416,32 +416,32 @@ More alarming is that the approaches and techniques from these optimal solutions
     <tr>
       <td>Valid Parentheses</td>
       <td>Easy</td>
-      <td><a href="stack//problem">problem</a></td>
-      <td><a href="stack//solution">solution</a></td>
+      <td><a href="stack/valid-parentheses/problem">problem</a></td>
+      <td><a href="stack/valid-parentheses/solution">solution</a></td>
     </tr>
     <tr>
       <td>Simplify Path</td>
       <td>Medium</td>
-      <td><a href="stack//problem">problem</a></td>
-      <td><a href="stack//solution">solution</a></td>
+      <td><a href="stack/simplify-path/problem">problem</a></td>
+      <td><a href="stack/simplify-path/solution">solution</a></td>
     </tr>
     <tr>
       <td>Min Stack</td>
       <td>Medium</td>
-      <td><a href="stack//problem">problem</a></td>
-      <td><a href="stack//solution">solution</a></td>
+      <td><a href="stack/min-stack/problem">problem</a></td>
+      <td><a href="stack/min-stack/solution">solution</a></td>
     </tr>
     <tr>
       <td>Evaluate Reverse Polish Notation</td>
       <td>Medium</td>
-      <td><a href="stack//problem">problem</a></td>
-      <td><a href="stack//solution">solution</a></td>
+      <td><a href="stack/evaluate-reverse-polish-notation/problem">problem</a></td>
+      <td><a href="stack/evaluate-reverse-polish-notation/solution">solution</a></td>
     </tr>
     <tr>
       <td>Basic Calculator</td>
       <td>Hard</td>
-      <td><a href="stack//problem">problem</a></td>
-      <td><a href="stack//solution">solution</a></td>
+      <td><a href="stack/basic-calculator/problem">problem</a></td>
+      <td><a href="stack/basic-calculator/solution">solution</a></td>
     </tr>
   </tbody>
 </table>
