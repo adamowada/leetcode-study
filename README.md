@@ -180,10 +180,12 @@ More alarming is that the approaches and techniques from these optimal solutions
     <col style="width: 16.66%;">
     <col style="width: 16.66%;">
   </colgroup>
+  <img width="882" height="1">
   <tbody>
+  <img width="882" height="1">
     <tr>
       <img width="882" height="1">
-      <td>Valid Palindrome</td>
+      <td><img width="882" height="1">Valid Palindrome</td>
       <td>Easy</td>
       <td><a href="two-pointers/valid-palindrome/problem.md">problem</a></td>
       <td><a href="two-pointers/valid-palindrome/solution.md">solution</a></td>
