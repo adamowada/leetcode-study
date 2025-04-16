@@ -1,81 +1,117 @@
-<div><div class="mx-1"><div class="jjv-K"><p>Below is a comprehensive study guide for intervals problems that walks you through how to identify them and then explains the spectrum of techniques—from the most foundational to the more specialized methods—using concrete examples from our collection (insert-interval, merge-intervals, minimum-number-of-arrows-to-burst-balloons, and summary-ranges).</p>
-<p>──────────────────────────────</p>
-<ol>
-<li>Identifying Intervals Problems</li>
-</ol>
-<p>Intervals problems typically revolve around data that describe ranges or segments. When you read a problem and see one or more of the following, you’re likely dealing with an intervals problem:</p>
-<p>• Input Format and Data Representation:
-  – The input is usually a list (or array) of pairs, where each pair represents a “start” and an “end” value (for example, [[1,3], [2,6], [8,10]] in merge-intervals or minimum-number-of-arrows-to-burst-balloons).
-  – Sometimes the input is a sorted array of numbers that must be grouped into continuous ranges (as in summary-ranges).</p>
-<p>• Common Operational Goals:
-  – Merging overlapping intervals (for instance, combining [1,3] with [2,6] to form [1,6]).
-  – Inserting a new range into a sorted, non-overlapping array while merging any overlaps (see insert-interval).
-  – Determining the minimum (or sometimes maximum) number of steps or actions required to cover, merge, or remove intervals—for example, calculating the minimum number of arrows needed to burst all balloons by covering overlapping intervals.
-  – Summarizing or grouping contiguous segments (as in summary-ranges, where you output ranges in a formatted string).</p>
-<p>• Real-World or Conceptual Hints:
-  – The problem might be cast around scheduling (think meeting times) or range covering scenarios.
-  – Look for words like “merge,” “insert,” “burst,” or “summarize” in conjunction with “intervals” or “ranges.”
-  – For example, in the “minimum-number-of-arrows-to-burst-balloons” problem, each balloon is modeled as an interval, and the objective is to cover as many intervals as possible with each arrow.</p>
-<p>Thus, the very nature of the input (pairs representing a start and an end) and the goal (merging, covering, slicing, or summarizing these intervals) are reliable cues that you’re facing an intervals problem.</p>
-<p>──────────────────────────────
-2. Most Common to Least Common Techniques and Approaches to Solving Intervals Problems</p>
-<p>Once you’ve recognized an intervals problem, the next step is to decide on a strategy. Here are the techniques, ordered roughly from the most foundational and common to those used in more specialized or case-driven scenarios.</p>
-<ol>
-<li>
-<p>Sorting as a Preprocessing Step<br>
- – Almost every intervals problem begins by sorting the data. Sorting brings order so that related intervals are adjacent, smoothing the way for later merging or grouping.
- – Examples:
-  • In merge-intervals, intervals are sorted by their start times (see merge-intervals/solution.md). This helps you easily detect overlaps as you iterate through the list.
-  • In minimum-number-of-arrows-to-burst-balloons, the intervals (balloons) are sorted by their end coordinate. This allows you to “greedily” center each arrow at the end of the first available balloon coverage.
-  • For insert-interval, the precondition that the list is already sorted greatly simplifies the process since you can partition the original intervals into those coming before, overlapping with, and coming after the new interval.</p>
-</li>
-<li>
-<p>Greedy Algorithms<br>
- – Greedy strategies are extremely effective in intervals problems because local optimal choices (like “cover as many intervals as possible” or “merge overlapping ranges immediately”) usually yield a global optimum.
- – Examples:
-  • In minimum-number-of-arrows-to-burst-balloons, after sorting by end coordinate, the algorithm shoots an arrow at the end of the first balloon’s interval and then skips all overlapping ones—this greedy decision minimizes the overall count (see minimum-number-of-arrows-to-burst-balloons/solution.md).
-  • When merging intervals (merge-intervals/solution.md), the greedy choice is to expand the current merged interval only as far as necessary while the next interval still overlaps.</p>
-</li>
-<li>
-<p>Two-Pointer or Single-Pass Iteration<br>
- – Once the intervals (or numbers in the case of summary-ranges) are sorted, a single pass with one or two pointers is often sufficient to process the list.
- – Examples:
-  • In merge-intervals, one pointer (or index) is advanced through the sorted intervals while comparing with the last merged interval to decide whether to merge or to start a new interval.
-  • In summary-ranges, a pointer iterates through the sorted list of unique numbers, grouping contiguous sequences (i.e., where the next number is exactly one greater than the current) and then outputting either a single number or a “start-&gt;end” range. See summary-ranges/solution.md for details.</p>
-</li>
-<li>
-<p>In-Place Merging / Updating<br>
- – In problems where intervals must be combined, you can update the boundaries of a current interval “in-place” to merge with overlapping ones.
- – Examples:
-  • In merge-intervals, when two intervals overlap, the end of the current “merged” interval is updated to be the maximum of the two endpoints.
-  • In insert-interval, during the merging phase you update the new interval’s start and end to incorporate all overlapping intervals before you add it to the result.
- – This technique minimizes extra memory usage and is very effective if the problem mandates in-place operations.</p>
-</li>
-<li>
-<p>Conditional or Case-Based Iteration (Multi-Phase Processing)<br>
- – Sometimes the problem divides naturally into multiple cases that must be processed in separate phases.
- – Examples:
-  • In insert-interval, the solution typically consists of three phases:
-   a. Append all intervals that end before the new interval begins.
-   b. Merge all intervals that overlap with the new interval.
-   c. Append all remaining intervals that start after the new interval ends.
-  • This multi-phase approach ensures that every interval is handled correctly based on its position relative to the new interval.
-  • It emphasizes conditional logic where different “zones” of the sorted data require different handling.</p>
-</li>
-</ol>
-<p>──────────────────────────────
-Practical References and How They Fit Together</p>
-<p>• The merge-intervals problem (see merge-intervals/solution.md) is a classic demonstration of sorting the intervals and then iteratively merging overlapping ones—a technique that is both simple and highly effective.
-• The insert-interval problem (see insert-interval/solution.md) exemplifies the case-based approach. By processing intervals in three distinct phases (before, overlapping, after), the solution cleanly integrates the new interval.
-• The minimum-number-of-arrows-to-burst-balloons problem (see minimum-number-of-arrows-to-burst-balloons/solution.md) shows how a greedy strategy, after sorting by end coordinates, can optimize the number of “actions” (in this case, arrows) required to cover all intervals.
-• The summary-ranges problem (see summary-ranges/solution.md), although slightly different from typical merge problems, applies the same idea of recognizing contiguous “ranges” within sorted data, using a pointer that groups consecutive integers and then conditionally formats the output.</p>
-<p>──────────────────────────────
-Summary</p>
-<p>When you face an intervals problem, start by checking whether your input data consists of pairs or segments and whether the task involves merging, inserting, covering, or summarizing these intervals. In most cases you will:</p>
-<ol>
-<li>Pre-sort the intervals (or numbers) based on a key attribute (start or end).</li>
-<li>Apply a greedy strategy or use a two-pointer (or single-pass) technique to process the sorted data.</li>
-<li>Update boundaries in place or follow a multi-phase processing strategy if the problem involves different cases (e.g., non-overlapping, overlapping, and subsequent intervals).</li>
-</ol>
-<p>By practicing these techniques and studying the provided examples, you’ll develop a keen intuition for identifying and solving a wide range of intervals problems efficiently.</p>
-<p>Happy coding and good luck with your practice!</p></div></div></div>
+Below is a comprehensive study guide that explains how to recognize intervals problems and outlines the spectrum of techniques—from the most foundational to the more specialized methods—with concrete examples drawn from our collection.
+
+---
+
+## 1. Identifying Intervals Problems
+
+Intervals problems are characterized by inputs that represent ranges or segments, and their objectives often involve merging, inserting, or covering these ranges. Here are key clues to help you quickly identify an intervals problem:
+
+- **Input Data Structure:**  
+  - **Pairs or Ranges:**  
+    The input is typically a list (or array) of pairs, each pair representing a start and an end value. For example, the interval list in the [merge-intervals problem](intervals/merge-intervals/problem.md) looks like `[[1,3],[2,6],[8,10],[15,18]]`.
+  - **Sorted or Unsorted:**  
+    Problems may specify that intervals are already sorted (as in [insert-interval](intervals/insert-interval/problem.md)) or require you to sort them yourself.
+  - **Single-Dimensional Ranges:**  
+    Some problems, like [summary-ranges](intervals/summary-ranges/problem.md), deal with a sorted array of numbers that must be grouped into continuous intervals.
+
+- **Common Problem Objectives:**  
+  - **Merging Overlaps:**  
+    You may be asked to combine overlapping intervals into a single range—for example, merging `[1,3]` and `[2,6]` into `[1,6]` as seen in [merge-intervals](intervals/merge-intervals/solution.md).
+  - **Inserting and Merging:**  
+    When a new interval is added to a set of non-overlapping intervals, you often need to merge any overlapping intervals. This is the goal of the [insert-interval problem](intervals/insert-interval/solution.md).
+  - **Coverage and Optimization:**  
+    Some problems model scenarios like “bursting” balloons with arrows, where each balloon is represented by an interval. The objective is to cover as many intervals as possible with each arrow, as seen in [minimum-number-of-arrows-to-burst-balloons](intervals/minimum-number-of-arrows-to-burst-balloons/problem.md).
+  - **Range Summarization:**  
+    Other problems, such as [summary-ranges](intervals/summary-ranges/solution.md), require you to group contiguous numbers into ranges and output them as a formatted string (either as a single number or a “start->end” format).
+
+- **Verbal Clues and Keywords:**  
+  Look for words like “merge,” “insert,” “burst,” “cover,” “summarize,” or “range” in the problem statement. Real-world analogies such as scheduling meetings, covering intervals with resources, or compressing ranges are also strong signals that you’re dealing with an intervals problem.
+
+In summary, if your problem’s input consists of pairs (or sequences) representing start and end values and the task involves combining, inserting, or summarizing these ranges, you’re most likely facing an intervals problem.
+
+---
+
+## 2. Most Common to Least Common Techniques and Approaches to Solving Intervals Problems
+
+Once you’ve identified that you’re facing an intervals problem, deciding on the right strategy is the next step. Below is a list of techniques arranged from the most frequently used and foundational to those that are more specialized or multi-case in nature:
+
+### A. Sorting as a Preprocessing Step
+- **Why It’s Essential:**  
+  Sorting brings structure to your intervals by grouping related ranges together. This makes it much easier to detect overlaps, merge intervals, or insert new ones while preserving order.
+  
+- **Examples and References:**
+  - **Merge Intervals:**  
+    In the [merge-intervals problem](intervals/merge-intervals/solution.md), the intervals are sorted by their start time so that as you iterate through them, overlapping intervals appear consecutively.
+  - **Minimum Number of Arrows:**  
+    In [minimum-number-of-arrows-to-burst-balloons](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md), the intervals (balloons) are first sorted by their end coordinate. This allows a greedy algorithm to shoot each arrow at the end coordinate, maximizing the number of balloons burst with a single arrow.
+  - **Insert Interval:**  
+    Because the [insert-interval problem](intervals/insert-interval/solution.md) provides sorted intervals, you can efficiently partition them into segments that fall completely before, overlapping with, or after the new interval.
+
+### B. Greedy Algorithms
+- **Why They Work:**  
+  Greedy strategies make the best local decision at each step, which is often sufficient for intervals problems because covering or merging overlapping intervals locally usually yields a global optimum.
+  
+- **Examples and References:**
+  - **Minimum Number of Arrows:**  
+    After sorting by end coordinates, the greedy solution in [minimum-number-of-arrows-to-burst-balloons](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md) fires an arrow at the end of the first balloon and skips over all subsequent balloons that the arrow covers.
+  - **Merge Intervals:**  
+    As you traverse the sorted intervals, you greedily merge overlapping intervals by extending the current interval’s end to the maximum value encountered (see [merge-intervals](intervals/merge-intervals/solution.md)).
+
+### C. Two-Pointer and Single-Pass Iteration
+- **Why It’s Common:**  
+  Once intervals are sorted, often a single pass with one or two pointers is enough to process them efficiently. This technique helps you move through the list and make decisions about merging or grouping without extra passes.
+  
+- **Examples and References:**
+  - **Merge Intervals:**  
+    The single-pass iteration in [merge-intervals](intervals/merge-intervals/solution.md) compares the current interval with the last interval in the result list to determine whether to merge.
+  - **Summary Ranges:**  
+    In [summary-ranges](intervals/summary-ranges/solution.md), a pointer is used to traverse the sorted list of numbers to group contiguous sequences quickly.
+  - **Insert Interval:**  
+    A common approach in [insert-interval](intervals/insert-interval/solution.md) is to traverse the list with a pointer and partition the intervals into those entirely before the new interval, those overlapping, and those after.
+
+### D. In-Place Merging and Updating
+- **Why It’s Useful:**  
+  For problems that require minimal extra space, updating intervals in place to extend or merge them is a highly effective technique.
+  
+- **Examples and References:**
+  - **Merge Intervals:**  
+    When two intervals overlap, the solution (see [merge-intervals](intervals/merge-intervals/solution.md)) updates the end of the current merged interval in place, avoiding the need for a temporary structure.
+  - **Insert Interval:**  
+    In [insert-interval](intervals/insert-interval/solution.md), overlapping intervals are merged by updating the new interval’s start and end bounds to encompass all overlapping intervals.
+
+### E. Conditional or Case-Based Multi-Phase Processing
+- **Why It’s Sometimes Necessary:**  
+  When intervals naturally fall into distinct categories based on their relation to a target interval (or each other), dividing the problem into phases can simplify the logic and ensure that every case is handled correctly.
+  
+- **Examples and References:**
+  - **Insert Interval:**  
+    The [insert-interval problem](intervals/insert-interval/solution.md) is typically broken into three phases:
+    1. Append intervals that end before the new interval starts.
+    2. Merge intervals that overlap with the new interval.
+    3. Append intervals that start after the new interval ends.
+  - **Summary Ranges:**  
+    In [summary-ranges](intervals/summary-ranges/solution.md), the process involves one phase of grouping contiguous sequences and another phase of conditionally formatting these sequences (outputting a single number versus a range string).
+
+---
+
+### Practical References
+
+- **Merge Intervals ([merge-intervals/solution.md](intervals/merge-intervals/solution.md))**  
+  Demonstrates the power of sorting by start time followed by a single pass to merge intervals.
+
+- **Insert Interval ([insert-interval/solution.md](intervals/insert-interval/solution.md))**  
+  Exemplifies a multi-phase approach with clear segmentation: non-overlapping before, merging overlaps, and non-overlapping after.
+
+- **Minimum Number of Arrows to Burst Balloons ([minimum-number-of-arrows-to-burst-balloons/solution.md](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md))**  
+  Uses sorting by end coordinate and a greedy algorithm to cover as many intervals (balloons) as possible with each arrow.
+
+- **Summary Ranges ([summary-ranges/solution.md](intervals/summary-ranges/solution.md))**  
+  Uses a pointer-based single pass to group contiguous numbers and then format them into the desired output format.
+
+---
+
+### Summary
+
+When you face an intervals problem, start by examining the input structure. If you see ranges or pairs that denote start and end values and operations such as merging, inserting, or covering are requested, you’re likely dealing with intervals. Most solutions begin with sorting the input as a foundational step. From there, applying greedy choices, two-pointer or single-pass iterations, and sometimes even multi-phase conditional processing will typically yield an optimal solution. Reviewing the examples and techniques from the problems—such as merge-intervals, insert-interval, minimum-number-of-arrows-to-burst-balloons, and summary-ranges—will give you a strong intuition for tackling similar challenges.
+
+Happy coding and best of luck mastering intervals problems!
