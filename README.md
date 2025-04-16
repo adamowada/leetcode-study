@@ -105,7 +105,7 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](two-pointers/3sum/problem.md)
   - [solution](two-pointers/3sum/solution.md)
 
-### Sliding Window
+### [Sliding Window](sliding-window/study-guide.md)
 
 - Minimizing Size Subarry Sum - Medium
   - [problem](sliding-window/minimizing-size-subarray-sum/problem.md)
