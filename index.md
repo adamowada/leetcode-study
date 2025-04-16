@@ -402,7 +402,49 @@ More alarming is that the approaches and techniques from these optimal solutions
   </tbody>
 </table>
 
-### Stack
+<h3>Stack - <a href="stack/study-guide">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Valid Parentheses</td>
+      <td>Easy</td>
+      <td><a href="stack/valid-parentheses/problem">problem</a></td>
+      <td><a href="stack/valid-parentheses/solution">solution</a></td>
+    </tr>
+    <tr>
+      <td>Simplify Path</td>
+      <td>Medium</td>
+      <td><a href="stack/simplify-path/problem">problem</a></td>
+      <td><a href="stack/simplify-path/solution">solution</a></td>
+    </tr>
+    <tr>
+      <td>Min Stack</td>
+      <td>Medium</td>
+      <td><a href="stack/min-stack/problem">problem</a></td>
+      <td><a href="stack/min-stack/solution">solution</a></td>
+    </tr>
+    <tr>
+      <td>Evaluate Reverse Polish Notation</td>
+      <td>Medium</td>
+      <td><a href="stack/evaluate-reverse-polish-notation/problem">problem</a></td>
+      <td><a href="stack/evaluate-reverse-polish-notation/solution">solution</a></td>
+    </tr>
+    <tr>
+      <td>Basic Calculator</td>
+      <td>Hard</td>
+      <td><a href="stack/basic-calculator/problem">problem</a></td>
+      <td><a href="stack/basic-calculator/solution">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Linked List
 
