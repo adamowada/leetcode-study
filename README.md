@@ -170,16 +170,16 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### [Intervals](intervals/study-guide.md)
 
-- Summary Ranges
+- Summary Ranges - Easy
   - [problem](intervals/summary-ranges/problem.md)
   - [solution](intervals/summary-ranges/solution.md)
-- Merge Intervals
+- Merge Intervals - Medium
   - [problem](intervals/merge-intervals/problem.md)
   - [solution](intervals/merge-intervals/solution.md)
-- Insert Interval
+- Insert Interval - Medium
   - [problem](intervals/insert-interval/problem.md)
   - [solution](intervals/insert-interval/solution.md)
-- Minimum Number of Arrows to Burst Balloons
+- Minimum Number of Arrows to Burst Balloons - Medium
   - [problem](intervals/minimum-number-of-arrows-to-burst-balloons/problem.md)
   - [solution](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md)
 
