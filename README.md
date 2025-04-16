@@ -181,12 +181,6 @@ More alarming is that the approaches and techniques from these optimal solutions
     <col style="width: 16.66%;">
   </colgroup>
   <tbody>
-    <tr style="display: none;">
-      <td><img width="441" height="0">&nbsp;</td>
-      <td><img width="1" height="0">&nbsp;</td>
-      <td><img width="1" height="0">&nbsp;</td>
-      <td><img width="1" height="0">&nbsp;</td>
-    </tr>
     <tr>
       <td>Valid Palindrome</td>
       <td>Easy</td>
