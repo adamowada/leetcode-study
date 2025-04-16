@@ -138,37 +138,37 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](matrix/game-of-life/problem.md)
   - [solution](matrix/game-of-life/solution.md)
 
-### Hashmap
+### [Hashmap](hashmap/study-guide.md)
 
-- Ransom Note
+- Ransom Note - Easy
   - [problem](hashmap/ransom-note/problem.md)
   - [solution](hashmap/ransom-note/solution.md)
-- Isomorphic Strings
+- Isomorphic Strings - Easy
   - [problem](hashmap/isomorphic-strings/problem.md)
   - [solution](hashmap/isomorphic-strings/solution.md)
-- Word Pattern
+- Word Pattern - Easy
   - [problem](hashmap/word-pattern/problem.md)
   - [solution](hashmap/word-pattern/solution.md)
-- Valid Anagram
+- Valid Anagram - Easy
   - [problem](hashmap/valid-anagram/problem.md)
   - [solution](hashmap/valid-anagram/solution.md)
-- Group Anagrams
+- Group Anagrams - Medium
   - [problem](hashmap/group-anagrams/problem.md)
   - [solution](hashmap/group-anagrams/solution.md)
-- Two Sum
+- Two Sum - Easy
   - [problem](hashmap/two-sum/problem.md)
   - [solution](hashmap/two-sum/solution.md)
-- Happy Number
+- Happy Number - Easy
   - [problem](hashmap/happy-number/problem.md)
   - [solution](hashmap/happy-number/solution.md)
-- Contains Duplicate II
+- Contains Duplicate II - Easy
   - [problem](hashmap/contains-duplicate-ii/problem.md)
   - [solution](hashmap/contains-duplicate-ii/solution.md)
-- Longest Consecutive Sequence
+- Longest Consecutive Sequence - Medium
   - [problem](hashmap/longest-consecutive-sequence/problem.md)
   - [solution](hashmap/longest-consecutive-sequence/solution.md)
 
-### Intervals
+### [Intervals](intervals/study-guide.md)
 
 - Summary Ranges
   - [problem](intervals/summary-ranges/problem.md)
