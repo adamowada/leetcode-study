@@ -140,6 +140,10 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### Hashmap
 
+- Ransom Note
+- Isomorphic Strings
+
+
 ### Intervals
 
 ### Stack
