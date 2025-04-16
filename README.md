@@ -90,8 +90,8 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Two Pointers
 
 - Valid Palindrome - Easy
-  - [problem](two-pointers//problem.md)
-  - [solution](two-pointers//solution.md)
+  - [problem](two-pointers/valid-palindrome/problem.md)
+  - [solution](two-pointers/valid-palindrome/solution.md)
 - Is Subsequence - Easy
   - [problem](two-pointers/is-subsequence/problem.md)
   - [solution](two-pointers/is-subsequence/solution.md)
