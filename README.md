@@ -12,10 +12,6 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ## Table of Contents
 
-Below is the reformatted Table of Contents with each category represented as a separate markdown table. Each category includes a header with a link to its study guide and a table where every row lists the problem name, its difficulty, the link to the problem description, and the link to the solution.
-
----
-
 ### Array / String - [Study Guide](array-string/study-guide.md)
 
 | Problem Name                                     | Difficulty | Problem Link                                                         | Solution Link                                                        |
@@ -45,8 +41,6 @@ Below is the reformatted Table of Contents with each category represented as a s
 | Find the Index of the First Occurrence in a String | Easy      | [problem](array-string/find-the-index-of-the-first-occurrence-in-a-string/problem.md) | [solution](array-string/find-the-index-of-the-first-occurrence-in-a-string/solution.md) |
 | Text Justification                               | Hard       | [problem](array-string/text-justification/problem.md)                  | [solution](array-string/text-justification/solution.md)                |
 
----
-
 ### Two Pointers - [Study Guide](two-pointers/study-guide.md)
 
 | Problem Name                                   | Difficulty | Problem Link                                                            | Solution Link                                                           |
@@ -57,8 +51,6 @@ Below is the reformatted Table of Contents with each category represented as a s
 | Container With Most Water                      | Medium     | [problem](two-pointers/container-with-most-water/problem.md)            | [solution](two-pointers/container-with-most-water/solution.md)          |
 | 3Sum                                           | Medium     | [problem](two-pointers/3sum/problem.md)                                 | [solution](two-pointers/3sum/solution.md)                               |
 
----
-
 ### Sliding Window - [Study Guide](sliding-window/study-guide.md)
 
 | Problem Name                                      | Difficulty | Problem Link                                                                    | Solution Link                                                                   |
@@ -67,8 +59,6 @@ Below is the reformatted Table of Contents with each category represented as a s
 | Longest Substring Without Repeating Characters    | Medium     | [problem](sliding-window/longest-substring-without-repeating-characters/problem.md)| [solution](sliding-window/longest-substring-without-repeating-characters/solution.md)|
 | Substring with Concatenation of All Words         | Hard       | [problem](sliding-window/substring-with-concatenation-of-all-words/problem.md)     | [solution](sliding-window/substring-with-concatenation-of-all-words/solution.md)     |
 | Minimum Window Substring                          | Hard       | [problem](sliding-window/minimum-window-substring/problem.md)                    | [solution](sliding-window/minimum-window-substring/solution.md)                   |
-
----
 
 ### Matrix - [Study Guide](matrix/study-guide.md)
 
@@ -79,8 +69,6 @@ Below is the reformatted Table of Contents with each category represented as a s
 | Rotate Image               | Medium     | [problem](matrix/rotate-image/problem.md)                       | [solution](matrix/rotate-image/solution.md)                     |
 | Set Matrix Zeroes          | Medium     | [problem](matrix/set-matrix-zeroes/problem.md)                  | [solution](matrix/set-matrix-zeroes/solution.md)                |
 | Game of Life               | Medium     | [problem](matrix/game-of-life/problem.md)                       | [solution](matrix/game-of-life/solution.md)                     |
-
----
 
 ### Hashmap - [Study Guide](hashmap/study-guide.md)
 
@@ -95,8 +83,6 @@ Below is the reformatted Table of Contents with each category represented as a s
 | Happy Number                   | Easy       | [problem](hashmap/happy-number/problem.md)                         | [solution](hashmap/happy-number/solution.md)                        |
 | Contains Duplicate II          | Easy       | [problem](hashmap/contains-duplicate-ii/problem.md)                | [solution](hashmap/contains-duplicate-ii/solution.md)               |
 | Longest Consecutive Sequence   | Medium     | [problem](hashmap/longest-consecutive-sequence/problem.md)           | [solution](hashmap/longest-consecutive-sequence/solution.md)          |
-
----
 
 ### Intervals - [Study Guide](intervals/study-guide.md)
 
