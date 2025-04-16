@@ -141,8 +141,20 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Hashmap
 
 - Ransom Note
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
 - Isomorphic Strings
-
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
+- Word Pattern
+  - [problem](hashmap//problem.md)
+  - [solution](hashmap//solution.md)
+- Valid Anagram
+- Group Anagrams
+- Two Sum
+- Happy Number
+- Contains Duplicate II
+- Longest Consecutive Sequence
 
 ### Intervals
 
