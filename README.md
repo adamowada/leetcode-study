@@ -108,6 +108,8 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Sliding Window
 
 - Minimizing Size Subarry Sum - Medium
+  - [problem](sliding-window//problem.md)
+  - [problem](sliding-window//problem.md)
 - Longest Substring Without Repeating Characters - Medium
 - Substring with Concatenation of All Words - Hard
 - Minimum window Substring - Hard
