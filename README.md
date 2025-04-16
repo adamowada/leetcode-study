@@ -172,6 +172,7 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 <h3>Two Pointers - <a href="two-pointers/study-guide.md">Study Guide</a></h3>
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <img width="441" height="1">
   <colgroup>
     <!-- Problem Name column takes 50% -->
     <col style="width: 50%;">
