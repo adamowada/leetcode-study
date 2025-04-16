@@ -170,6 +170,11 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### Intervals
 
+- Summary Ranges
+- Merge Intervals
+- Insert Interval
+- Minimum Number of Arrows to Burst Balloons
+
 ### Stack
 
 ### Linked List
