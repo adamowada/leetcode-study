@@ -182,17 +182,10 @@ More alarming is that the approaches and techniques from these optimal solutions
   </colgroup>
   <tbody>
     <tr>
-      <img width="882" height="0">
-      <img width="882" height="0">
-      <img width="882" height="0">
-      <img width="882" height="0">
-      <img width="882" height="0">
-    </tr>
-    <tr>
-      <td>Valid Palindrome</td>
-      <td>Easy</td>
-      <td><a href="two-pointers/valid-palindrome/problem.md">problem</a></td>
-      <td><a href="two-pointers/valid-palindrome/solution.md">solution</a></td>
+      <td><img width="882" height="0">Valid Palindrome</td>
+      <td><img width="882" height="0">Easy</td>
+      <td><a href="two-pointers/valid-palindrome/problem.md"><img width="882" height="0">problem</a></td>
+      <td><a href="two-pointers/valid-palindrome/solution.md"><img width="882" height="0">solution</a></td>
     </tr>
     <tr>
       <td>Is Subsequence</td>
