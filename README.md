@@ -108,17 +108,17 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Sliding Window
 
 - Minimizing Size Subarry Sum - Medium
-  - [problem](sliding-window//problem.md)
-  - [solution](sliding-window//solution.md)
+  - [problem](sliding-window/minimizing-size-subarray-sum/problem.md)
+  - [solution](sliding-window/minimizing-size-subarray-sum/solution.md)
 - Longest Substring Without Repeating Characters - Medium
   - [problem](sliding-window/longest-substring-without-repeating-characters/problem.md)
-  - [solution](sliding-window//solution.md)
+  - [solution](sliding-window/longest-substring-without-repeating-characters/solution.md)
 - Substring with Concatenation of All Words - Hard
-  - [problem](sliding-window//problem.md)
-  - [solution](sliding-window//solution.md)
+  - [problem](sliding-window/substring-with-concatenation-of-all-words/problem.md)
+  - [solution](sliding-window/substring-with-concatenation-of-all-words/solution.md)
 - Minimum window Substring - Hard
-  - [problem](sliding-window//problem.md)
-  - [solution](sliding-window//solution.md)
+  - [problem](sliding-window/minimum-window-substring/problem.md)
+  - [solution](sliding-window/minimum-window-substring/solution.md)
 
 ### Matrix
 
