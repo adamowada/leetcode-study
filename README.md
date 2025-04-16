@@ -93,17 +93,17 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](two-pointers//problem.md)
   - [solution](two-pointers//solution.md)
 - Is Subsequence - Easy
-  - [problem](two-pointers//problem.md)
-  - [solution](two-pointers//solution.md)
+  - [problem](two-pointers/is-subsequence/problem.md)
+  - [solution](two-pointers/is-subsequence/solution.md)
 - Two Sum II - Input Array Is Sorted - Medium
-  - [problem](two-pointers//problem.md)
-  - [solution](two-pointers//solution.md)
+  - [problem](two-pointers/two-sum-ii-input-array-is-sorted/problem.md)
+  - [solution](two-pointers/two-sum-ii-input-array-is-sorted/solution.md)
 - Container With Most Water - Medium
-  - [problem](two-pointers//problem.md)
-  - [solution](two-pointers//solution.md)
+  - [problem](two-pointers/container-with-most-water/problem.md)
+  - [solution](two-pointers/container-with-most-water/solution.md)
 - 3Sum - Medium
-  - [problem](two-pointers//problem.md)
-  - [solution](two-pointers//solution.md)
+  - [problem](two-pointers/3sum/problem.md)
+  - [solution](two-pointers/3sum/solution.md)
 
 ### Sliding Window
 
