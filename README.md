@@ -8,7 +8,7 @@ Problems and solutions to Leetcode's [Top Interview 150](https://leetcode.com/st
 
 My goal with this repo is to learn and advance my abilities with data structures and algorithms. Lately I've noticed that when I solve Leetcode problems, even easy ones, I mistakenly believe I have the best, most optimal solution when in reality there are more efficient and elegant approaches I never thought of.
 
-More alarming is that the approaches and techniques from these optimal solutions are applicable across a wide range of problems, while my solutions feel one-off and narrow. Ultimately this means I have much more to learn. Just getting a solution accepted on Leetcode isn't enough to maximize growth and learning, I need to see the optimal solution and think about how it can be applied to novel problems.
+More alarming is that the approaches and techniques from these optimal solutions are applicable across a wide range of problems while my solutions feel one-off and narrow. Ultimately this means I have much more to learn. Just getting a solution accepted on Leetcode isn't enough to maximize growth and learning, I need to see the optimal solution and think about how it can be applied to novel problems.
 
 ## Table of Contents
 
@@ -92,8 +92,6 @@ More alarming is that the approaches and techniques from these optimal solutions
 | Merge Intervals                                   | Medium     | [problem](intervals/merge-intervals/problem.md)                                | [solution](intervals/merge-intervals/solution.md)                               |
 | Insert Interval                                   | Medium     | [problem](intervals/insert-interval/problem.md)                                | [solution](intervals/insert-interval/solution.md)                               |
 | Minimum Number of Arrows to Burst Balloons        | Medium     | [problem](intervals/minimum-number-of-arrows-to-burst-balloons/problem.md)      | [solution](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md)      |
-
----
 
 ### Stack
 
