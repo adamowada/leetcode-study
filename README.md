@@ -120,7 +120,7 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](sliding-window/minimum-window-substring/problem.md)
   - [solution](sliding-window/minimum-window-substring/solution.md)
 
-### Matrix
+### [Matrix](matrix/study-guide.md)
 
 - Valid Sudoku - Medium
   - [problem](matrix/valid-sudoku/problem.md)
