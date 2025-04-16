@@ -107,6 +107,11 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### Sliding Window
 
+- Minimizing Size Subarry Sum
+- Longest Substring Without Repeating Characters
+- Substring with Concatenation of All Words
+- Minimum window Substring
+
 ### Matrix
 
 ### Hashmap
