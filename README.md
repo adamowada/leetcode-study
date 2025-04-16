@@ -122,13 +122,21 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ### Matrix
 
-- Valid Sudoku
+- Valid Sudoku - Medium
   - [problem](matrix//problem.md)
   - [solution](matrix//solution.md)
-- Spiral Matrix
-- Rotate Image
-- Set Matrix Zeroes
-- Game of Life
+- Spiral Matrix - Medium
+  - [problem](matrix//problem.md)
+  - [solution](matrix//solution.md)
+- Rotate Image - Medium
+  - [problem](matrix//problem.md)
+  - [solution](matrix//solution.md)
+- Set Matrix Zeroes - Medium
+  - [problem](matrix//problem.md)
+  - [solution](matrix//solution.md)
+- Game of Life - Medium
+  - [problem](matrix//problem.md)
+  - [solution](matrix//solution.md)
 
 ### Hashmap
 
