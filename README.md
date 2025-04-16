@@ -141,23 +141,23 @@ More alarming is that the approaches and techniques from these optimal solutions
 ### Hashmap
 
 - Ransom Note
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/ransom-note/problem.md)
+  - [solution](hashmap/ransom-note/solution.md)
 - Isomorphic Strings
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/isomorphic-strings/problem.md)
+  - [solution](hashmap/isomorphic-strings/solution.md)
 - Word Pattern
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/word-pattern/problem.md)
+  - [solution](hashmap/word-pattern/solution.md)
 - Valid Anagram
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/valid-anagram/problem.md)
+  - [solution](hashmap/valid-anagram/solution.md)
 - Group Anagrams
   - [problem](hashmap/group-anagrams/problem.md)
   - [solution](hashmap/group-anagrams/solution.md)
 - Two Sum
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/two-sum/problem.md)
+  - [solution](hashmap/two-sum/solution.md)
 - Happy Number
   - [problem](hashmap/happy-number/problem.md)
   - [solution](hashmap/happy-number/solution.md)
@@ -165,8 +165,8 @@ More alarming is that the approaches and techniques from these optimal solutions
   - [problem](hashmap/contains-duplicate-ii/problem.md)
   - [solution](hashmap/contains-duplicate-ii/solution.md)
 - Longest Consecutive Sequence
-  - [problem](hashmap//problem.md)
-  - [solution](hashmap//solution.md)
+  - [problem](hashmap/longest-consecutive-sequence/problem.md)
+  - [solution](hashmap/longest-consecutive-sequence/solution.md)
 
 ### Intervals
 
