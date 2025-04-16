@@ -182,7 +182,7 @@ More alarming is that the approaches and techniques from these optimal solutions
   </colgroup>
   <tbody>
     <tr>
-      <td><img width="882" height="0">&nbsp;</td>
+      <td><img width="441" height="0">&nbsp;</td>
       <td><img width="1" height="0">&nbsp;</td>
       <td><img width="1" height="0">&nbsp;</td>
       <td><img width="1" height="0">&nbsp;</td>
