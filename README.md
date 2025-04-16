@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
 # Leetcode Study Repo
 
 by Adam Owada
