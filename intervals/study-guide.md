@@ -1,6 +1,7 @@
 Below is a comprehensive study guide on interval problems. In this guide we explain how to recognize an intervals problem and then discuss—starting with the most frequently used techniques and moving down to less common strategies—the methods you can use to solve these types of questions. Throughout the discussion, we refer to concrete examples from our collection (including insert-interval, merge-intervals, minimum-number-of-arrows-to-burst-balloons, and summary-ranges).
 
 ──────────────────────────────
+
 1. Identifying Intervals Problems
 
 Intervals problems are characterized by input data that describe ranges or segments. Here are some common clues that you’re facing an intervals challenge:
@@ -23,6 +24,7 @@ Intervals problems are characterized by input data that describe ranges or segme
 For example, if you see a problem where you are given a set of intervals and asked to return a new set of non-overlapping intervals that cover all the data (merge-intervals), or when given a sorted list of numbers to group into ranges (summary-ranges), these are classic intervals problems.
 
 ──────────────────────────────
+
 2. Most Common to Least Common Techniques and Approaches to Solving Intervals Problems
 
 When solving intervals problems, certain algorithmic techniques and approaches are used repeatedly. Below is an ordered guide describing these strategies, along with examples from our collection.
@@ -67,6 +69,7 @@ When solving intervals problems, certain algorithmic techniques and approaches a
   – In summary-ranges, once a contiguous sequence is identified, the solution formats the output as either “a->b” (if the start and end differ) or “a” (if there is only a single element).
 
 ──────────────────────────────
+
 Practical Examples and How They Fit Together
 
 • The merge-intervals solution demonstrates sorting and a single-pass algorithm with in-place merging: after sorting by start values, the algorithm iterates and conditionally updates the current merged interval (see merge-intervals/solution.md).
@@ -78,6 +81,7 @@ Practical Examples and How They Fit Together
 • The summary-ranges problem, although not a “typical” intervals merging problem, shows how to iterate through a sorted list with a pointer and then conditionally format the result based on whether a contiguous range is detected (see summary-ranges/solution.md).
 
 ──────────────────────────────
+
 Takeaway
 
 When you encounter an intervals problem, start by examining the input format (pairs or sorted numbers), then consider whether sorting, greedy decisions, or a multi-phase approach is needed to separate and merge different sections of the data. With practice, you will be able to quickly classify problems as intervals problems and apply these techniques to obtain efficient, readable solutions.
