@@ -12,86 +12,395 @@ More alarming is that the approaches and techniques from these optimal solutions
 
 ## Table of Contents
 
-### Array / String - [Study Guide](array-string/study-guide.md)
+<h3>Array / String - <a href="array-string/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Merge Sorted Array</td>
+      <td>Easy</td>
+      <td><a href="array-string/merge-sorted-array/problem.md">problem</a></td>
+      <td><a href="array-string/merge-sorted-array/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Remove Element</td>
+      <td>Easy</td>
+      <td><a href="array-string/remove-element/problem.md">problem</a></td>
+      <td><a href="array-string/remove-element/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Remove Duplicates from Sorted Array</td>
+      <td>Easy</td>
+      <td><a href="array-string/remove-duplicates-from-sorted-array/problem.md">problem</a></td>
+      <td><a href="array-string/remove-duplicates-from-sorted-array/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Remove Duplicates from Sorted Array II</td>
+      <td>Medium</td>
+      <td><a href="array-string/remove-duplicates-from-sorted-array-ii/problem.md">problem</a></td>
+      <td><a href="array-string/remove-duplicates-from-sorted-array-ii/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Majority Element</td>
+      <td>Easy</td>
+      <td><a href="array-string/majority-element/problem.md">problem</a></td>
+      <td><a href="array-string/majority-element/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Rotate Array</td>
+      <td>Medium</td>
+      <td><a href="array-string/rotate-array/problem.md">problem</a></td>
+      <td><a href="array-string/rotate-array/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Best Time to Buy and Sell Stock</td>
+      <td>Easy</td>
+      <td><a href="array-string/best-time-to-buy-and-sell-stock/problem.md">problem</a></td>
+      <td><a href="array-string/best-time-to-buy-and-sell-stock/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Best Time to Buy and Sell Stock II</td>
+      <td>Medium</td>
+      <td><a href="array-string/best-time-to-buy-and-sell-stock-ii/problem.md">problem</a></td>
+      <td><a href="array-string/best-time-to-buy-and-sell-stock-ii/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Jump Game</td>
+      <td>Medium</td>
+      <td><a href="array-string/jump-game/problem.md">problem</a></td>
+      <td><a href="array-string/jump-game/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Jump Game II</td>
+      <td>Medium</td>
+      <td><a href="array-string/jump-game-ii/problem.md">problem</a></td>
+      <td><a href="array-string/jump-game-ii/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>H-Index</td>
+      <td>Medium</td>
+      <td><a href="array-string/h-index/problem.md">problem</a></td>
+      <td><a href="array-string/h-index/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Insert Delete GetRandom O(1)</td>
+      <td>Medium</td>
+      <td><a href="array-string/insert-delete-getrandom-o1/problem.md">problem</a></td>
+      <td><a href="array-string/insert-delete-getrandom-o1/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Product of Array Except Self</td>
+      <td>Medium</td>
+      <td><a href="array-string/product-of-array-except-self/problem.md">problem</a></td>
+      <td><a href="array-string/product-of-array-except-self/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Gas Station</td>
+      <td>Medium</td>
+      <td><a href="array-string/gas-station/problem.md">problem</a></td>
+      <td><a href="array-string/gas-station/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Candy</td>
+      <td>Hard</td>
+      <td><a href="array-string/candy/problem.md">problem</a></td>
+      <td><a href="array-string/candy/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Trapping Rain Water</td>
+      <td>Hard</td>
+      <td><a href="array-string/trapping-rain-water/problem.md">problem</a></td>
+      <td><a href="array-string/trapping-rain-water/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Roman to Integer</td>
+      <td>Easy</td>
+      <td><a href="array-string/roman-to-integer/problem.md">problem</a></td>
+      <td><a href="array-string/roman-to-integer/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Integer to Roman</td>
+      <td>Medium</td>
+      <td><a href="array-string/integer-to-roman/problem.md">problem</a></td>
+      <td><a href="array-string/integer-to-roman/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Length of Last Word</td>
+      <td>Easy</td>
+      <td><a href="array-string/length-of-last-word/problem.md">problem</a></td>
+      <td><a href="array-string/length-of-last-word/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Longest Common Prefix</td>
+      <td>Easy</td>
+      <td><a href="array-string/longest-common-prefix/problem.md">problem</a></td>
+      <td><a href="array-string/longest-common-prefix/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Reverse Words in a String</td>
+      <td>Medium</td>
+      <td><a href="array-string/reverse-words-in-a-string/problem.md">problem</a></td>
+      <td><a href="array-string/reverse-words-in-a-string/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Zigzag Conversion</td>
+      <td>Medium</td>
+      <td><a href="array-string/zigzag-conversion/problem.md">problem</a></td>
+      <td><a href="array-string/zigzag-conversion/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Find the Index of the First Occurrence in a String</td>
+      <td>Easy</td>
+      <td><a href="array-string/find-the-index-of-the-first-occurrence-in-a-string/problem.md">problem</a></td>
+      <td><a href="array-string/find-the-index-of-the-first-occurrence-in-a-string/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Text Justification</td>
+      <td>Hard</td>
+      <td><a href="array-string/text-justification/problem.md">problem</a></td>
+      <td><a href="array-string/text-justification/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
-| Problem Name                                     | Difficulty | Problem Link                                                         | Solution Link                                                        |
-|--------------------------------------------------|------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
-| Merge Sorted Array                               | Easy       | [problem](array-string/merge-sorted-array/problem.md)                | [solution](array-string/merge-sorted-array/solution.md)              |
-| Remove Element                                   | Easy       | [problem](array-string/remove-element/problem.md)                    | [solution](array-string/remove-element/solution.md)                  |
-| Remove Duplicates from Sorted Array              | Easy       | [problem](array-string/remove-duplicates-from-sorted-array/problem.md) | [solution](array-string/remove-duplicates-from-sorted-array/solution.md) |
-| Remove Duplicates from Sorted Array II           | Medium     | [problem](array-string/remove-duplicates-from-sorted-array-ii/problem.md)| [solution](array-string/remove-duplicates-from-sorted-array-ii/solution.md) |
-| Majority Element                                 | Easy       | [problem](array-string/majority-element/problem.md)                  | [solution](array-string/majority-element/solution.md)                |
-| Rotate Array                                     | Medium     | [problem](array-string/rotate-array/problem.md)                      | [solution](array-string/rotate-array/solution.md)                    |
-| Best Time to Buy and Sell Stock                  | Easy       | [problem](array-string/best-time-to-buy-and-sell-stock/problem.md)     | [solution](array-string/best-time-to-buy-and-sell-stock/solution.md)   |
-| Best Time to Buy and Sell Stock II               | Medium     | [problem](array-string/best-time-to-buy-and-sell-stock-ii/problem.md)   | [solution](array-string/best-time-to-buy-and-sell-stock-ii/solution.md) |
-| Jump Game                                        | Medium     | [problem](array-string/jump-game/problem.md)                         | [solution](array-string/jump-game/solution.md)                       |
-| Jump Game II                                     | Medium     | [problem](array-string/jump-game-ii/problem.md)                        | [solution](array-string/jump-game-ii/solution.md)                      |
-| H-Index                                          | Medium     | [problem](array-string/h-index/problem.md)                           | [solution](array-string/h-index/solution.md)                         |
-| Insert Delete GetRandom O(1)                     | Medium     | [problem](array-string/insert-delete-getrandom-o1/problem.md)          | [solution](array-string/insert-delete-getrandom-o1/solution.md)        |
-| Product of Array Except Self                     | Medium     | [problem](array-string/product-of-array-except-self/problem.md)        | [solution](array-string/product-of-array-except-self/solution.md)      |
-| Gas Station                                      | Medium     | [problem](array-string/gas-station/problem.md)                       | [solution](array-string/gas-station/solution.md)                      |
-| Candy                                            | Hard       | [problem](array-string/candy/problem.md)                             | [solution](array-string/candy/solution.md)                           |
-| Trapping Rain Water                              | Hard       | [problem](array-string/trapping-rain-water/problem.md)                 | [solution](array-string/trapping-rain-water/solution.md)               |
-| Roman to Integer                                 | Easy       | [problem](array-string/roman-to-integer/problem.md)                    | [solution](array-string/roman-to-integer/solution.md)                  |
-| Integer to Roman                                 | Medium     | [problem](array-string/integer-to-roman/problem.md)                    | [solution](array-string/integer-to-roman/solution.md)                  |
-| Length of Last Word                              | Easy       | [problem](array-string/length-of-last-word/problem.md)                 | [solution](array-string/length-of-last-word/solution.md)               |
-| Longest Common Prefix                            | Easy       | [problem](array-string/longest-common-prefix/problem.md)               | [solution](array-string/longest-common-prefix/solution.md)             |
-| Reverse Words in a String                        | Medium     | [problem](array-string/reverse-words-in-a-string/problem.md)           | [solution](array-string/reverse-words-in-a-string/solution.md)         |
-| Zigzag Conversion                                | Medium     | [problem](array-string/zigzag-conversion/problem.md)                   | [solution](array-string/zigzag-conversion/solution.md)                 |
-| Find the Index of the First Occurrence in a String | Easy      | [problem](array-string/find-the-index-of-the-first-occurrence-in-a-string/problem.md) | [solution](array-string/find-the-index-of-the-first-occurrence-in-a-string/solution.md) |
-| Text Justification                               | Hard       | [problem](array-string/text-justification/problem.md)                  | [solution](array-string/text-justification/solution.md)                |
+<h3>Two Pointers - <a href="two-pointers/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Valid Palindrome</td>
+      <td>Easy</td>
+      <td><a href="two-pointers/valid-palindrome/problem.md">problem</a></td>
+      <td><a href="two-pointers/valid-palindrome/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Is Subsequence</td>
+      <td>Easy</td>
+      <td><a href="two-pointers/is-subsequence/problem.md">problem</a></td>
+      <td><a href="two-pointers/is-subsequence/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Two Sum II - Input Array Is Sorted</td>
+      <td>Medium</td>
+      <td><a href="two-pointers/two-sum-ii-input-array-is-sorted/problem.md">problem</a></td>
+      <td><a href="two-pointers/two-sum-ii-input-array-is-sorted/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Container With Most Water</td>
+      <td>Medium</td>
+      <td><a href="two-pointers/container-with-most-water/problem.md">problem</a></td>
+      <td><a href="two-pointers/container-with-most-water/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>3Sum</td>
+      <td>Medium</td>
+      <td><a href="two-pointers/3sum/problem.md">problem</a></td>
+      <td><a href="two-pointers/3sum/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
-### Two Pointers - [Study Guide](two-pointers/study-guide.md)
+<h3>Sliding Window - <a href="sliding-window/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Minimizing Size Subarray Sum</td>
+      <td>Medium</td>
+      <td><a href="sliding-window/minimizing-size-subarray-sum/problem.md">problem</a></td>
+      <td><a href="sliding-window/minimizing-size-subarray-sum/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Longest Substring Without Repeating Characters</td>
+      <td>Medium</td>
+      <td><a href="sliding-window/longest-substring-without-repeating-characters/problem.md">problem</a></td>
+      <td><a href="sliding-window/longest-substring-without-repeating-characters/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Substring with Concatenation of All Words</td>
+      <td>Hard</td>
+      <td><a href="sliding-window/substring-with-concatenation-of-all-words/problem.md">problem</a></td>
+      <td><a href="sliding-window/substring-with-concatenation-of-all-words/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Minimum Window Substring</td>
+      <td>Hard</td>
+      <td><a href="sliding-window/minimum-window-substring/problem.md">problem</a></td>
+      <td><a href="sliding-window/minimum-window-substring/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
-| Problem Name                                   | Difficulty | Problem Link                                                            | Solution Link                                                           |
-|------------------------------------------------|------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Valid Palindrome                               | Easy       | [problem](two-pointers/valid-palindrome/problem.md)                     | [solution](two-pointers/valid-palindrome/solution.md)                   |
-| Is Subsequence                                 | Easy       | [problem](two-pointers/is-subsequence/problem.md)                       | [solution](two-pointers/is-subsequence/solution.md)                     |
-| Two Sum II - Input Array Is Sorted             | Medium     | [problem](two-pointers/two-sum-ii-input-array-is-sorted/problem.md)       | [solution](two-pointers/two-sum-ii-input-array-is-sorted/solution.md)     |
-| Container With Most Water                      | Medium     | [problem](two-pointers/container-with-most-water/problem.md)            | [solution](two-pointers/container-with-most-water/solution.md)          |
-| 3Sum                                           | Medium     | [problem](two-pointers/3sum/problem.md)                                 | [solution](two-pointers/3sum/solution.md)                               |
+<h3>Matrix - <a href="matrix/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Valid Sudoku</td>
+      <td>Medium</td>
+      <td><a href="matrix/valid-sudoku/problem.md">problem</a></td>
+      <td><a href="matrix/valid-sudoku/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Spiral Matrix</td>
+      <td>Medium</td>
+      <td><a href="matrix/spiral-matrix/problem.md">problem</a></td>
+      <td><a href="matrix/spiral-matrix/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Rotate Image</td>
+      <td>Medium</td>
+      <td><a href="matrix/rotate-image/problem.md">problem</a></td>
+      <td><a href="matrix/rotate-image/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Set Matrix Zeroes</td>
+      <td>Medium</td>
+      <td><a href="matrix/set-matrix-zeroes/problem.md">problem</a></td>
+      <td><a href="matrix/set-matrix-zeroes/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Game of Life</td>
+      <td>Medium</td>
+      <td><a href="matrix/game-of-life/problem.md">problem</a></td>
+      <td><a href="matrix/game-of-life/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
-### Sliding Window - [Study Guide](sliding-window/study-guide.md)
+<h3>Hashmap - <a href="hashmap/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Ransom Note</td>
+      <td>Easy</td>
+      <td><a href="hashmap/ransom-note/problem.md">problem</a></td>
+      <td><a href="hashmap/ransom-note/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Isomorphic Strings</td>
+      <td>Easy</td>
+      <td><a href="hashmap/isomorphic-strings/problem.md">problem</a></td>
+      <td><a href="hashmap/isomorphic-strings/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Word Pattern</td>
+      <td>Easy</td>
+      <td><a href="hashmap/word-pattern/problem.md">problem</a></td>
+      <td><a href="hashmap/word-pattern/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Valid Anagram</td>
+      <td>Easy</td>
+      <td><a href="hashmap/valid-anagram/problem.md">problem</a></td>
+      <td><a href="hashmap/valid-anagram/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Group Anagrams</td>
+      <td>Medium</td>
+      <td><a href="hashmap/group-anagrams/problem.md">problem</a></td>
+      <td><a href="hashmap/group-anagrams/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Two Sum</td>
+      <td>Easy</td>
+      <td><a href="hashmap/two-sum/problem.md">problem</a></td>
+      <td><a href="hashmap/two-sum/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Happy Number</td>
+      <td>Easy</td>
+      <td><a href="hashmap/happy-number/problem.md">problem</a></td>
+      <td><a href="hashmap/happy-number/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Contains Duplicate II</td>
+      <td>Easy</td>
+      <td><a href="hashmap/contains-duplicate-ii/problem.md">problem</a></td>
+      <td><a href="hashmap/contains-duplicate-ii/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Longest Consecutive Sequence</td>
+      <td>Medium</td>
+      <td><a href="hashmap/longest-consecutive-sequence/problem.md">problem</a></td>
+      <td><a href="hashmap/longest-consecutive-sequence/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
-| Problem Name                                      | Difficulty | Problem Link                                                                    | Solution Link                                                                   |
-|---------------------------------------------------|------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| Minimizing Size Subarray Sum                      | Medium     | [problem](sliding-window/minimizing-size-subarray-sum/problem.md)                | [solution](sliding-window/minimizing-size-subarray-sum/solution.md)               |
-| Longest Substring Without Repeating Characters    | Medium     | [problem](sliding-window/longest-substring-without-repeating-characters/problem.md)| [solution](sliding-window/longest-substring-without-repeating-characters/solution.md)|
-| Substring with Concatenation of All Words         | Hard       | [problem](sliding-window/substring-with-concatenation-of-all-words/problem.md)     | [solution](sliding-window/substring-with-concatenation-of-all-words/solution.md)     |
-| Minimum Window Substring                          | Hard       | [problem](sliding-window/minimum-window-substring/problem.md)                    | [solution](sliding-window/minimum-window-substring/solution.md)                   |
-
-### Matrix - [Study Guide](matrix/study-guide.md)
-
-| Problem Name               | Difficulty | Problem Link                                                    | Solution Link                                                   |
-|----------------------------|------------|-----------------------------------------------------------------|-----------------------------------------------------------------|
-| Valid Sudoku               | Medium     | [problem](matrix/valid-sudoku/problem.md)                       | [solution](matrix/valid-sudoku/solution.md)                     |
-| Spiral Matrix              | Medium     | [problem](matrix/spiral-matrix/problem.md)                      | [solution](matrix/spiral-matrix/solution.md)                    |
-| Rotate Image               | Medium     | [problem](matrix/rotate-image/problem.md)                       | [solution](matrix/rotate-image/solution.md)                     |
-| Set Matrix Zeroes          | Medium     | [problem](matrix/set-matrix-zeroes/problem.md)                  | [solution](matrix/set-matrix-zeroes/solution.md)                |
-| Game of Life               | Medium     | [problem](matrix/game-of-life/problem.md)                       | [solution](matrix/game-of-life/solution.md)                     |
-
-### Hashmap - [Study Guide](hashmap/study-guide.md)
-
-| Problem Name                   | Difficulty | Problem Link                                                       | Solution Link                                                       |
-|--------------------------------|------------|--------------------------------------------------------------------|---------------------------------------------------------------------|
-| Ransom Note                    | Easy       | [problem](hashmap/ransom-note/problem.md)                          | [solution](hashmap/ransom-note/solution.md)                         |
-| Isomorphic Strings             | Easy       | [problem](hashmap/isomorphic-strings/problem.md)                   | [solution](hashmap/isomorphic-strings/solution.md)                  |
-| Word Pattern                   | Easy       | [problem](hashmap/word-pattern/problem.md)                         | [solution](hashmap/word-pattern/solution.md)                        |
-| Valid Anagram                  | Easy       | [problem](hashmap/valid-anagram/problem.md)                        | [solution](hashmap/valid-anagram/solution.md)                       |
-| Group Anagrams                 | Medium     | [problem](hashmap/group-anagrams/problem.md)                       | [solution](hashmap/group-anagrams/solution.md)                      |
-| Two Sum                        | Easy       | [problem](hashmap/two-sum/problem.md)                              | [solution](hashmap/two-sum/solution.md)                             |
-| Happy Number                   | Easy       | [problem](hashmap/happy-number/problem.md)                         | [solution](hashmap/happy-number/solution.md)                        |
-| Contains Duplicate II          | Easy       | [problem](hashmap/contains-duplicate-ii/problem.md)                | [solution](hashmap/contains-duplicate-ii/solution.md)               |
-| Longest Consecutive Sequence   | Medium     | [problem](hashmap/longest-consecutive-sequence/problem.md)           | [solution](hashmap/longest-consecutive-sequence/solution.md)          |
-
-### Intervals - [Study Guide](intervals/study-guide.md)
-
-| Problem Name                                      | Difficulty | Problem Link                                                                   | Solution Link                                                                   |
-|---------------------------------------------------|------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| Summary Ranges                                    | Easy       | [problem](intervals/summary-ranges/problem.md)                                 | [solution](intervals/summary-ranges/solution.md)                                |
-| Merge Intervals                                   | Medium     | [problem](intervals/merge-intervals/problem.md)                                | [solution](intervals/merge-intervals/solution.md)                               |
-| Insert Interval                                   | Medium     | [problem](intervals/insert-interval/problem.md)                                | [solution](intervals/insert-interval/solution.md)                               |
-| Minimum Number of Arrows to Burst Balloons        | Medium     | [problem](intervals/minimum-number-of-arrows-to-burst-balloons/problem.md)      | [solution](intervals/minimum-number-of-arrows-to-burst-balloons/solution.md)      |
+<h3>Intervals - <a href="intervals/study-guide.md">Study Guide</a></h3>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <colgroup>
+    <!-- Problem Name column takes 50% -->
+    <col style="width: 50%;">
+    <!-- The remaining columns take 16.66% each (roughly one-third of the remaining 50%) -->
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+    <col style="width: 16.66%;">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td>Summary Ranges</td>
+      <td>Easy</td>
+      <td><a href="intervals/summary-ranges/problem.md">problem</a></td>
+      <td><a href="intervals/summary-ranges/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Merge Intervals</td>
+      <td>Medium</td>
+      <td><a href="intervals/merge-intervals/problem.md">problem</a></td>
+      <td><a href="intervals/merge-intervals/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Insert Interval</td>
+      <td>Medium</td>
+      <td><a href="intervals/insert-interval/problem.md">problem</a></td>
+      <td><a href="intervals/insert-interval/solution.md">solution</a></td>
+    </tr>
+    <tr>
+      <td>Minimum Number of Arrows to Burst Balloons</td>
+      <td>Medium</td>
+      <td><a href="intervals/minimum-number-of-arrows-to-burst-balloons/problem.md">problem</a></td>
+      <td><a href="intervals/minimum-number-of-arrows-to-burst-balloons/solution.md">solution</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Stack
 
